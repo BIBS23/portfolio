@@ -84,6 +84,18 @@
             margin-left: 20%;
 
         }
+        @media only screen and (max-width:480px) {
+
+            .home-data img {
+                height: 33vh;
+                width: 50vw;
+            }
+            .topnav a {
+                padding: 14px 6px;
+                
+            }
+        }
+
 
         @media only screen and (max-width:430px) {
 

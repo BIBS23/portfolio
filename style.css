@@ -124,8 +124,12 @@ h1 {
 .social-media li {
     list-style-type: none;
     font-size: 1.25em;
-    color: #6E58E0;
     margin-top: 150%;
+
+}
+
+.social-media a{
+    color: #6E58E0;
 
 }
 
