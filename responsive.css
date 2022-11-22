@@ -111,6 +111,17 @@
         }
 
     }
+    @media only screen and (max-width:350px) {
+        .home-data img {
+            height: 20vh;
+            width: 62vw;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+    }
+
+
 
     @media only screen and (max-width:350px) {
         .home-data img {
