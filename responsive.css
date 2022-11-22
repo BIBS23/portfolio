@@ -1,0 +1,118 @@
+@media only screen and (max-width:900px) {
+
+    .social-media li {
+        margin-left: -50px;
+
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .home-data {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 50%;
+        width: 80vw;
+    }
+
+    .home-data img {
+        height: 40vh;
+        width: 62vw;
+    }
+
+    .content h1:nth-child(1) {
+        font-size: 3em;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        margin-top: 20%;
+
+
+    }
+
+    #des {
+        width: 40vw;
+    }
+
+    .contact-button {
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .social-media {
+        flex-direction: row-reverse;
+        width: 20%;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .social-media li {
+        margin: auto 50%;
+
+
+    }
+
+    .about p {
+        width: 60vw;
+    }
+
+    .my-skills {
+        margin-top: 10%;
+    }
+
+    .contact {
+        margin-top: 10%;
+    }
+
+    @media only screen and (max-width:545px) {
+        .home-data img {
+            height: 30vh;
+            width: 62vw;
+        }
+
+        .contact {
+            margin-top: 10%;
+        }
+
+    }
+
+    @media only screen and (max-width:500px) {
+        .skills {
+            display: grid;
+            list-style: none;
+            margin-left: 20%;
+
+        }
+
+        @media only screen and (max-width:430px) {
+
+            .home-data img {
+                height: 26vh;
+                width: 62vw;
+            }
+
+            #des {
+                width: 60vw;
+            }
+
+        }
+
+    }
+
+    @media only screen and (max-width:350px) {
+        .home-data img {
+            height: 27vh;
+            width: 62vw;
+        }
+
+    }
+
+    @media only screen and (max-width:292px) {
+        .home-data img {
+            height: 24vh;
+            width: 62vw;
+        }
+
+    }
+}
