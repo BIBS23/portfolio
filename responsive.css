@@ -109,8 +109,26 @@
             }
 
         }
+        @media only screen and (max-width:319px) {
+
+            .home-data img {
+                height: 26vh;
+                width: 62vw;
+            }
+            .nav-items{
+                align-content: space-between;
+                margin-left: 0%;
+            }
+            .topnav{
+                padding: 10%;
+            }
+
+           
+
+        }
 
     }
+
     @media only screen and (max-width:350px) {
         .home-data img {
             height: 20vh;
@@ -118,6 +136,12 @@
             border-radius: 50%;
             object-fit: cover;
         }
+        .topnav a {
+            padding: 14px 3px;
+            
+        }
+
+
 
     }
 
