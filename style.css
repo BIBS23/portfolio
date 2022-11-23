@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #191627;
+    scroll-behavior: smooth;
 }
 
 
@@ -42,7 +41,66 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
 
 .topnav {
     flex-direction: row-reverse;
@@ -64,9 +122,11 @@ body {
     margin: 10% auto;
     align-items: center;
     justify-content: space-evenly;
-    /* align-content: space-between;
-        justify-content: center; */
 }
+
+/* align-content: space-between;
+        justify-content: center; */
+
 
 .home-data img {
     height: 50vh;
@@ -120,6 +180,9 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-top: 0%;
+
+
+
 }
 
 .social-media li {
@@ -129,7 +192,7 @@ h1 {
 
 }
 
-.social-media a{
+.social-media a {
     color: #6E58E0;
 
 }
@@ -160,6 +223,7 @@ h1 {
     padding-top: 10%;
     text-align: center;
 
+
 }
 
 .about p {
@@ -175,73 +239,111 @@ h1 {
 
 /*-------------------------------- My Skills ---------------------------------- */
 
+.skills {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .my-skills h1 {
     font-size: 3em;
     color: white;
     font-family: "Poppins", sans-serif;
     padding-top: 10%;
+    padding-bottom: 3%;
     text-align: center;
 }
 
-.skills {
-    display: grid;
-    list-style: none;
-    margin-left: 30%;
+.skill-items1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 53%;
+}
+
+.skill-items2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 35%; */
+    width: 53%;
+}
+
+.skill-items3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 53%;
 
 }
 
-.skills li:nth-child(1) {
-    grid-column: 1;
-    grid-row: 2;
-    padding-top: 13%;
+.skills li {
+    padding: 2% 0%;
+    margin: auto;
+}
+
+/*-------------------------------- slider -------------------------------------- */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.Recent-Works{
+    padding: 0% 20%;
+    margin-top: 10%;
+}
+
+
+.swiper-slide {
+    display: flex;
+    text-align: center;
+    font-size: 13px;
+    background:#191627;
+    /* background-color: white; */
+    height: 20vw;
+    width: 1vh;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 10%;
+    height: 10%;
 
 }
 
-.skills li:nth-child(2) {
-    grid-column: 2;
-    grid-row: 1;
-    padding-top: 13%;
-
-
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+.swiper-button-next{
+    color:#6E58E0;
+}
+.swiper-button-prev{
+    color:#6E58E0;
 }
 
-.skills li:nth-child(3) {
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 53%;
-    padding-top: 13%;
-
-}
-
-.skills li:nth-child(4) {
-    grid-column: 1;
-    grid-row: 1;
-    padding-top: 13%;
-
-}
-
-.skills li:nth-child(5) {
-    padding-left: 53%;
-    grid-column: 1;
-    grid-row: 2;
-    padding-top: 13%;
-
-}
-
-.skills li:nth-child(6) {
-    grid-column: 2;
-    grid-row: 2;
-    padding-top: 13%;
-
-
-}
 
 /*-------------------------------- Contact Me ---------------------------------- */
 .contact-details {
     display: flex;
     margin-top: 5%;
     margin-left: 15%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 .contact h1 {

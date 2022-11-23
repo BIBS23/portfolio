@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <title>Bibin Jose</title>
+
+    
 </head>
 
 <body>
@@ -60,14 +63,44 @@
             <div section class="my-skills">
                 <h1>My Skills</h1>
                 <div ul class="skills" id="skl">
-                    <li><img src="https://img.icons8.com/color/48/000000/dart.png" /></li>
-                    <li><img src="https://img.icons8.com/color/48/000000/flutter.png" /></li>
-                    <li><img src="https://img.icons8.com/color/48/null/c-programming.png" /></li>
-                    <li><img src="https://img.icons8.com/color/48/null/html-5--v1.png" /></li>
-                    <li><img src="https://img.icons8.com/color/48/000000/css3.png" /></li>
-                    <li><img src="https://img.icons8.com/color/48/null/bootstrap.png" /></li>
+                    <div class="skill-items1">
+                        <li><img src="https://img.icons8.com/color/48/000000/dart.png" /></li>
+                        <li><img src="https://img.icons8.com/color/48/000000/flutter.png" /></li>
+                        <li><img src="https://img.icons8.com/color/48/null/c-programming.png" /></li>
+                    </div>
+                    <div class="skill-items2">
+                        <li><img src="https://img.icons8.com/color/48/null/html-5--v1.png" /></li>
+                        <li><img src="https://img.icons8.com/color/48/000000/css3.png" /></li>
+                        <li><img src="https://img.icons8.com/color/48/null/bootstrap.png" /></li>
+                    </div>
+                    <div class="skill-items3">
+                        <li><img src="https://img.icons8.com/color/48/000000/python--v1.png" /></li>
+                        <li><img src="https://img.icons8.com/color/48/000000/firebase.png" /></li>
+                        <li><img src="https://img.icons8.com/color/48/000000/figma--v1.png" /></li>
+                    </div>
 
                     </ul>
+                    </section>
+                </div>
+
+                <div section class="Recent-Works">
+                    <h1>Recent Works</h1>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><h1>portfolio</h1></div>
+                            <div class="swiper-slide"><h1>Netflix Ui</h1></div>
+                            <div class="swiper-slide"><h1>apply leave</h1><span>take a leave at sjcet palai</span></div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                            <div class="swiper-slide">Slide 9</div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     </section>
                 </div>
 
@@ -104,6 +137,26 @@
                         x.className = "topnav";
                     }
                 }
+            </script>
+
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
             </script>
     </body>
 
