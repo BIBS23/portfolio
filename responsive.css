@@ -1,144 +1,173 @@
+@media only screen and (max-width:500px) {
+    .topnav {
+        justify-content: center;
+    }
 
+    .nav-items {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 0%;
 
-@media only screen and (max-width:600px) {
+    }
 
     .home-data {
         flex-direction: column-reverse;
-        flex-wrap: wrap;
-        width: 50%;
-        width: 80vw;
     }
 
     .home-data img {
         height: 40vh;
-        width: 62vw;
-    }
-
-    .content h1:nth-child(1) {
-        font-size: 3em;
-        color: white;
-        font-family: "Poppins", sans-serif;
-        margin-top: 20%;
-
-
-    }
-
-    #des {
-        width: 40vw;
-    }
-
-    .contact-button {
-        margin-top: 15%;
-        text-align: center;
-    }
-
-    .social-media {
-        flex-direction: row-reverse;
-        width: 20%;
-        align-items: center;
-        margin-top: 10%;
-    }
-
-    .social-media li {
-        margin: auto 50%;
-
-
-    }
-
-    .about p {
         width: 60vw;
     }
 
-    .my-skills {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content h1:nth-child(1) {
+        margin-top: 20%;
+    }
+
+    #des {
+        width: 50vw;
+    }
+
+    .contact-button {
         margin-top: 10%;
+        margin-right: 0%;
+        width: 40vw;
     }
 
-    .contact {
-        margin-top: 10%;
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        width: 25vw;
+        justify-content: center;
     }
 
-    @media only screen and (max-width:545px) {
-        .home-data img {
-            height: 30vh;
-            width: 62vw;
-        }
-
-        .contact {
-            margin-top: 10%;
-        }
-
+    .social-media li {
+        list-style-type: none;
+        font-size: 1.25em;
+        margin: 40% 30%;
     }
 
-    @media only screen and (max-width:500px) {
-        .skills {
-            display: grid;
-            list-style: none;
-            margin-left: 20%;
+    .about p {
+        width: 67%;
+        justify-items: center;
+        padding-top: 0%
+    }
 
-        }
+    .skill-items1 {
 
-        @media only screen and (max-width:480px) {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
 
-            .home-data img {
-                height: 33vh;
-                width: 50vw;
-            }
+    .skill-items2 {
 
-            .topnav a {
-                padding: 14px 6px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
 
-            }
-        }
+    .skill-items3 {
 
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
 
-        @media only screen and (max-width:430px) {
+    .Recent-Works {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0% 0% 0%;
+        margin-right: 0%;
+    }
 
-            .home-data img {
-                height: 26vh;
-                width: 62vw;
-            }
+    .Recent-Works h1 {
+        margin-right: 0%;
+    }
 
-            #des {
-                width: 60vw;
-            }
+    .swiper {
+        width: 100vw;
+        display: flex;
+    }
 
-        }
+    .swipermySwiper {
+        display: flex;
+        justify-items: center;
+    }
 
-        @media only screen and (max-width:350px) {
-            .home-data img {
-                height: 27vh;
-                width: 62vw;
-            }
-
-        }
-
-        @media only screen and (max-width:330px) {
-
-            .home-data img {
-                height: 26vh;
-                width: 62vw;
-            }
-
-            .nav-items {
-                align-content: space-between;
-                margin-left: 0%;
-            }
-
-            .topnav {
-                padding: 10%;
-            }
+    .element.style {
+        width: 395px;
+    }
 
 
+    .swiper-slide {
 
-        }
+        width: 80vw;
+        height: 50vh;
+        /* background-color: aliceblue; */
 
     }
 
-    @media only screen and (max-width:292px) {
-        .home-data img {
-            height: 24vh;
-            width: 62vw;
-        }
+}
 
+@media only screen and (max-width:460px) {
+
+    .home-data img {
+        width: 60vw;
+        height: 40vh;
     }
+
+    .skill-items1 {
+        width: 80%;
+    }
+
+    .skill-items2 {
+        width: 80%;
+    }
+
+    .skill-items3 {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width:460px) {
+    
+    .topnav a{
+        font-size: 10px;
+    }
+
+    .container h1 {
+        font-size: 2.4em;
+    }
+
+    .home-data img {
+        width: 70vw;
+        height: 30vh;
+        padding: 10px 10px;
+        font-weight: bolder;
+    }
+
+    #title2 {
+        font-size: 2.8em;
+    }
+
+    #des {
+        width: 80vw;
+    }
+
+    .about p {
+        padding-top: 5%;
+        width: 100vw;
+        padding: 5% 5%
+    }
+
+
+
 }
