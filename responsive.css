@@ -138,12 +138,18 @@
 }
 
 @media only screen and (max-width:360px) {
+
     .home-data{
-        width: 100%;
+        width: 109%;
+    }
+
+    .topnav a{
+        font-size: 15px;
     }
 
     .nav-items{
         text-align: center;
+
 
     }
     
@@ -153,7 +159,7 @@
     }
 
     .container h1 {
-        font-size: 2.4em;
+        font-size: 2.8em;
     }
 
     .home-data img {
