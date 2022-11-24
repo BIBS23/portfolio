@@ -138,9 +138,11 @@
 }
 
 @media only screen and (max-width:360px) {
-
+    .container{
+        width: 100%;
+    }
     .home-data{
-        width: 109%;
+        width: 100%;
     }
 
     .topnav a{
