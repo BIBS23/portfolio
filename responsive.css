@@ -1,4 +1,5 @@
 @media only screen and (max-width:500px) {
+
     .topnav {
         justify-content: center;
     }
@@ -52,10 +53,15 @@
         margin: 40% 30%;
     }
 
+
     .about p {
         width: 67%;
         justify-items: center;
         padding-top: 0%
+    }
+
+    .My-Skill h1 {
+        font-size: 10px;
     }
 
     .skill-items1 {
@@ -89,6 +95,7 @@
 
     .Recent-Works h1 {
         margin-right: 0%;
+
     }
 
     .swiper {
@@ -134,20 +141,20 @@
 }
 
 @media only screen and (max-width:360px) {
-    
-    .topnav a{
+
+
+
+    .topnav a {
         font-size: 10px;
     }
 
-    .container h1 {
-        font-size: 2.4em;
+    .home-data {
+        width: 100%;
     }
-.home-data{
-    width: 100%;
-}
+
     .home-data img {
         width: 70vw;
-        height: 40vh;
+        height: 35vh;
         padding: 10px 10px;
         font-weight: bolder;
     }
@@ -160,10 +167,26 @@
         width: 80vw;
     }
 
+    .about h1 {
+        font-size: 33px;
+    }
+
     .about p {
         padding-top: 5%;
         width: 100vw;
         padding: 5% 5%
+    }
+
+    .my-skills h1 {
+        font-size: 33px;
+    }
+
+    .Recent-Works h1 {
+        font-size: 33px;
+    }
+
+    .contact h1 {
+        font-size: 33px;
     }
 
 
