@@ -153,8 +153,8 @@
     }
 
     .home-data img {
-        width: 80vw;
-        height: 20vh;
+        width: 50vw;
+        height: 50vh;
         padding: 10px 10px;
         object-fit: cover;
     }
